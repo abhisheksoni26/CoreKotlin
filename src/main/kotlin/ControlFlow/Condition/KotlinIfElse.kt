@@ -1,4 +1,4 @@
-package ControlFlow
+package ControlFlow.Condition
 
 fun main() {
 
@@ -55,7 +55,6 @@ fun main() {
     }
 
     println(max)
-
 
 
 }

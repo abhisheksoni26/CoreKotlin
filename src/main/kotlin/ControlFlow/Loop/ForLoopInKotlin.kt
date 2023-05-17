@@ -1,4 +1,4 @@
-package ControlFlow
+package ControlFlow.Loop
 
 fun main() {
 
@@ -34,5 +34,15 @@ fun main() {
     for (i in 5 downTo 0 step 3){
         print(" $i")
     }
+
+    println()
+    println()
+    println()
+
+    (1..5).forEach {
+        print(" " + it)
+    }
+
+
 
 }
