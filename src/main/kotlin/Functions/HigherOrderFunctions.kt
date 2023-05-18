@@ -10,8 +10,14 @@ fun main() {
 
 //    hello("Abhishek", 21, fn)
 
-    hello("Abhishek", 21) {
-            name, age -> "$name, and age is $age"
+//    hello("Abhishek", 21) {
+//            name, age -> "$name, and age is $age"
+//}
+
+    var fn: (String, Int) -> String = {name,age->
+        "Name is $name, and Age is $age"
     }
+
+    hello("Abhishek", 21, fn)
 
 }
